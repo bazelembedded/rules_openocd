@@ -2,9 +2,10 @@
 A set of Bazel rules for flashing bare-metal programs using 
 [openocd](https://openocd.org/).
 
-For a comprehensive introduction please read our [documentation]().
+For a comprehensive introduction please read our [documentation](https://bazelembedded.github.io/rules_openocd).
 
 # Getting started
+
 ``` python
 load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 

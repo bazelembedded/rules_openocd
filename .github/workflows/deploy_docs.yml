@@ -1,0 +1,29 @@
+name: DeployDocs
+
+on:
+  push:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  DeployDocs:
+      runs-on: ubuntu-20.04
+  
+      steps:
+        - uses: actions/checkout@v2
+  
+        - name: Mount bazel cache
+          uses: actions/cache@v2
+          with:
+            path: "/home/runner/.cache/bazel"
+            key: ${{ runner.os }}-bazel
+  
+        - name: Build docs
+          run: |
+            bazelisk build  //docs:site
+        - name: Deploy Docs
+          uses: peaceiris/actions-gh-pages@v3
+          with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            publish_dir: ./bazel-bin/docs/site
