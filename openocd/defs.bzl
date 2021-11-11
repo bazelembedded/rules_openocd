@@ -33,17 +33,20 @@ openocd_flash = rule(
 Used to flash a binary image to a microcontroller using openocd
 
 Example:
-    openocd_flash(
-        name = "main_flash",
-        device_configs = [
-            "target/stm32h7x_dual_bank.cfg",
-        ],
-        image = ":main",
-        interface_configs = [
-            "interface/stlink.cfg",
-        ],
-        transport = "hla_swd",
-    )
+
+``` python
+openocd_flash(
+    name = "main_flash",
+    device_configs = [
+        "target/stm32h7x_dual_bank.cfg",
+    ],
+    image = ":main",
+    interface_configs = [
+        "interface/stlink.cfg",
+    ],
+    transport = "hla_swd",
+)
+```
 """,
     attrs = {
         "image": attr.label(
