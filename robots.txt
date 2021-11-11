@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bazelembedded.github.io/rules_openocd/sitemap.xml

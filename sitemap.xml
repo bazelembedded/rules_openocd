@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://bazelembedded.github.io/rules_openocd/</loc>
+    </url>
+    <url>
+        <loc>https://bazelembedded.github.io/rules_openocd/docs/</loc>
+    </url>
+    <url>
+        <loc>https://bazelembedded.github.io/rules_openocd/docs/contributing/</loc>
+    </url>
+    <url>
+        <loc>https://bazelembedded.github.io/rules_openocd/docs/contributing/code-of-conduct/</loc>
+        <lastmod>2021-05-01T18:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://bazelembedded.github.io/rules_openocd/docs/contributing/how-to-contribute/</loc>
+        <lastmod>2021-05-01T18:10:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://bazelembedded.github.io/rules_openocd/docs/getting-started/</loc>
+    </url>
+    <url>
+        <loc>https://bazelembedded.github.io/rules_openocd/docs/getting-started/api/</loc>
+    </url>
+    <url>
+        <loc>https://bazelembedded.github.io/rules_openocd/docs/getting-started/introduction/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://bazelembedded.github.io/rules_openocd/docs/getting-started/quick-start/</loc>
+        <lastmod>2021-05-01T08:20:00+00:00</lastmod>
+    </url>
+</urlset>
